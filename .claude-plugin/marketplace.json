@@ -1,0 +1,37 @@
+{
+  "name": "ollama",
+  "owner": {
+    "name": "Ollama"
+  },
+  "description": "Claude Code marketplace federating every @amlplugins/ollama-* plugin under a single marketplace source.",
+  "plugins": [
+    {
+      "name": "ollama-chat",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/ollama-chat.git"
+      }
+    },
+    {
+      "name": "ollama-embeddings",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/ollama-embeddings.git"
+      }
+    },
+    {
+      "name": "ollama-generate",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/ollama-generate.git"
+      }
+    },
+    {
+      "name": "ollama-models",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/ollama-models.git"
+      }
+    }
+  ]
+}
